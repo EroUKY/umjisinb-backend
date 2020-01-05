@@ -21,8 +21,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 
-app.listen(3000,() => {
-    console.log('listening to 3000');
+app.listen(8080,() => {
+    console.log('listening to 8080');
 });
 
 module.exports = app;
